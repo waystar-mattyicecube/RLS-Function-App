@@ -16,7 +16,7 @@ jobs:
     - name: Setup Azure PowerShell
       uses: azure/powershell@v1
       with:
-        azVersion: 'latest'
+        azPSVersion: 'latest'
 
     - name: Login to Azure
       uses: azure/login@v1
